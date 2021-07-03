@@ -1,0 +1,210 @@
+body
+{
+  background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg");
+    font-family:Verdana;
+    font-size: 20px;
+}
+a
+{
+	color: white;
+}
+h1
+{
+	color: yellow;
+}
+
+
+.navbar-brand 
+{
+	  background-color: #0d6efd;
+}
+.collapse
+{
+align-items: right;	
+}
+.tloheader
+{
+  position: relative;
+  background: #333333;
+  color: white;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://i.ibb.co/qJyxJRc/klawa.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+}
+.container-fluid
+{
+  min-height: 50px; 
+}
+
+.content 
+{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 00px;
+}
+.page-content
+{
+  background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg");
+}
+.tloheader h1
+{
+	margin: 0 0 0px;
+  line-height: 1;
+  color: rgba(000, 000, 250, 0.9);
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.tloheader p
+{
+	color: rgba(255, 255, 255, 0.9);
+  line-height: 1.4;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.start
+{
+	text-align: center;
+	width: 100%; 
+	height: 100px; 
+	background-color:  ;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: -100px;
+
+}
+
+.start::before
+{
+	content: '';
+  position: absolute;
+  top: 0;
+  bottom: 199px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg");
+   border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+  transform: scalex(1.5);
+ z-index: 100;
+  
+}
+.pre-footer 
+{
+  background-image: url("https://i.ibb.co/C0JsCWD/tlohtml.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.stopka
+{
+  text-align: center;
+  position: relative;
+  bottom: -0px;
+  background-color: #1d5fff !important;
+  color: rgba(255, 255, 255, 1);
+  padding: 30px 0 30px;
+}
+.parallax 
+{
+  background-attachment: fixed;
+}
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+	border-radius: 10px;
+	
+}
+.socials
+{
+	width: 100%;
+	text-align: center;
+	background-color: #292929;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.socialdivs
+{
+margin-left: auto;
+margin-right: auto;
+color: #ffffff;
+overflow: hidden;
+}
+.fb
+{
+	padding-bottom: 10px;
+	
+}
+.fb:hover
+{
+	background-color: #4668b3;
+}
+.yt
+{
+	padding-bottom: 10px;
+}
+.yt:hover
+{
+	background-color: #d94348;
+}
+.tw
+{
+	padding-bottom: 10px;
+	
+}
+.tw:hover
+{
+	background-color: #3095d3;
+}
+.gplus
+{
+	padding-bottom: 10px;
+}
+.gplus:hover
+{
+	background-color: #d95333;
+}
+.icon-facebook
+{
+	
+}
+@media (max-width: 575.98px)
+{
+ .socials
+ {
+	padding-left: 0;
+	padding-right: 0;
+ }	 
+	
+}
+@media (max-width: 767.98px) 
+{ 
+  .socials
+ {
+	padding-left: 0;
+	padding-right: 0;
+ }	 
+ 	
+}
+@media (min-width: 1399.98px) 
+{ 
+  .socials
+   {
+ 	padding-left: 20%;
+	padding-right: 20%;
+   }	 
+ }
